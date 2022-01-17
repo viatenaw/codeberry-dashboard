@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, IconButton, Badge, Typography } from '@mui/material';
+import { AppBar, Toolbar, IconButton } from '@mui/material';
 import { BiSearch } from 'react-icons/bi'
 import { AiFillSetting } from 'react-icons/ai'
 import userImage from '../../assests/Josh.jpeg'
@@ -7,7 +7,7 @@ import { IoIosNotifications } from 'react-icons/io'
 export const Topbar = (props) => {
   const { innerWidth: width } = window;
   return (
-    <AppBar position="absolute" sx={{ left: '280px', boxShadow: 'none', background: '#FFFFFF', maxWidth: width - 280 }}>
+    <AppBar position="absolute" sx={{ position: 'fixed', left: '280px', boxShadow: 'none', background: '#FFFFFF', maxWidth: width - 280 }}>
       <Toolbar sx={{
         justifyContent: 'flex-end',
       }}>

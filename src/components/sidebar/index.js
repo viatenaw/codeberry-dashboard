@@ -39,7 +39,7 @@ export const Sidebar = (props) => {
                 sx={{ width: '100%', maxWidth: '279px', bgcolor: 'background.paper' }}
                 component="nav"
                 aria-labelledby="nested-list-subheader"
-                subheader={<ListSubheader component="div" sx={{ textAlign: 'start', pl: 5, fontWeight: 700, color: '#212B36', letterSpacing: '1.2px' }} id="nested-list-subheader">
+                subheader={<ListSubheader component="div" sx={{ position: 'unset', textAlign: 'start', pl: 5, fontWeight: 700, color: '#212B36', letterSpacing: '1.2px' }} id="nested-list-subheader">
                     GENERAL
                 </ListSubheader>}
             >
@@ -54,7 +54,7 @@ export const Sidebar = (props) => {
                 sx={{ width: '100%', maxWidth: '279px', bgcolor: 'background.paper' }}
                 component="nav"
                 aria-labelledby="nested-list-subheader"
-                subheader={<ListSubheader component="div" sx={{ textAlign: 'start', pl: 5, fontWeight: 700, color: '#212B35', letterSpacing: '1.2px' }} id="nested-list-subheader">
+                subheader={<ListSubheader component="div" sx={{ position: 'unset', textAlign: 'start', pl: 5, fontWeight: 700, color: '#212B35', letterSpacing: '1.2px' }} id="nested-list-subheader">
                     MANAGEMENT
                 </ListSubheader>}
             >

@@ -13,7 +13,8 @@ export const Dashboard = (props) => {
           boxShadow: 'inset -1px 0px 0px rgb(145 158 171 / 24%)',
           minWidth: '280px',
           borderRight: 'none',
-          height: '100vh'
+          height: '100vh',
+          position: 'fixed'
         }}>
         <Sidebar />
       </div>
